@@ -5,15 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="452c2bb4-5db9-46f8-9f5d-53655fae6c18" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/example/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/example/feautures/login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/example/pageObject/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/example/pageObject/ProductPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/example/runner/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/example/stepdefs/Stepdefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/playwright/_04Actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/playwright/_05Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/playwright/_01CreatePlaywright.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/playwright/_01CreatePlaywright.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/playwright/_02Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/playwright/_02Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/playwright/_03Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/playwright/_03Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,17 +48,125 @@
     </option>
   </component>
   <component name="ProjectId" id="2Ym1bKg09oBOIVASFCCOR2dWQR6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Haldun35\IdeaProjects\Playwright\src\test\java\example\stepdefs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG._04Actions.mouseAction">
+    <configuration name="Runner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Playwright" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="example.runner" />
+      <option name="MAIN_CLASS_NAME" value="example.runner.Runner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_03Page.testScreenshot" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Playwright" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playwright.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="playwright" />
+      <option name="MAIN_CLASS_NAME" value="playwright._03Page" />
+      <option name="METHOD_NAME" value="testScreenshot" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_04Actions.mouseAction" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Playwright" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playwright.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="playwright" />
+      <option name="MAIN_CLASS_NAME" value="playwright._04Actions" />
+      <option name="METHOD_NAME" value="mouseAction" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_05Locators" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Playwright" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playwright.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="playwright" />
+      <option name="MAIN_CLASS_NAME" value="playwright._05Locators" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_05Locators.testHover2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Playwright" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playwright.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="playwright" />
+      <option name="MAIN_CLASS_NAME" value="playwright._05Locators" />
+      <option name="METHOD_NAME" value="testHover2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG._04Actions.mouseAction" />
+        <item itemvalue="TestNG.Runner" />
+        <item itemvalue="TestNG._05Locators.testHover2" />
+        <item itemvalue="TestNG._05Locators" />
+        <item itemvalue="TestNG._03Page.testScreenshot" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,5 +177,8 @@
       <updated>1701116012124</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
