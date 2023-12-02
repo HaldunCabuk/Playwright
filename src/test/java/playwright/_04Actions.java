@@ -84,4 +84,37 @@ public class _04Actions {
         Locator clickMe = page.getByRole(AriaRole.BUTTON,new Page.GetByRoleOptions().setName("Click Me").setExact(true));
         sleep(3);
     }
+
+    @Test
+    public void iframe(){
+        page.navigate("https://the-internet.herokuapp.com/iframe");
+        Locator editor = page.frameLocator("iframe").locator("tinymce");
+        //editor.fill("Java");
+
+        editor.focus();
+
+        page.keyboard().type("Java");
+    }
+
+    @Test
+    public void windows(){
+
+        BrowserContext context = browser.newContext();
+        Page page1 = context.newPage();
+        page1.navigate("https://the-internet.herokuapp.com/windows");
+
+        Locator locator = page.locator(".example > a");
+
+        Page page2 = context.waitForPage(() -> {
+
+            locator.click();
+
+                });
+
+        page2.waitForLoadState();
+
+
+        page.bringToFront();
+
+    }
 }
