@@ -10,7 +10,8 @@ public class Driver {
     public static Playwright playwright;
     public static Browser browser;
     public static Page page;
-
+    // static olusturulan singleton bir class. child class larin ayni page uzerinde islem yapabilmesi
+    // icin singleton olarak olusturuldu.
 
     private static void initialize(){
         if (playwright==null)
