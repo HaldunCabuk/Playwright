@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="452c2bb4-5db9-46f8-9f5d-53655fae6c18" name="Changes" comment="Playwright_Actions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/playwright/_04Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/playwright/_04Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/example/pageObject/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/example/pageObject/ProductPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,27 @@
       <recent name="C:\Users\Haldun35\IdeaProjects\Playwright\src\test\java\example\stepdefs" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG._04Actions.windows">
+  <component name="RunManager" selected="Cucumber Java.Scenario: login">
+    <configuration name="Scenario: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/example/feautures/login.feature" />
+      <option name="GLUE" value="example.stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Playwright" />
+      <option name="NAME_FILTER" value="^login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runner" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Playwright" />
       <extension name="coverage">
@@ -126,31 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_05Locators.testHover2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Playwright" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="playwright.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="playwright" />
-      <option name="MAIN_CLASS_NAME" value="playwright._05Locators" />
-      <option name="METHOD_NAME" value="testHover2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: login" />
         <item itemvalue="TestNG._04Actions.windows" />
         <item itemvalue="TestNG._04Actions.iframe" />
         <item itemvalue="TestNG._04Actions.mouseAction" />
         <item itemvalue="TestNG.Runner" />
-        <item itemvalue="TestNG._05Locators.testHover2" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +172,21 @@
       <option name="project" value="LOCAL" />
       <updated>1701381683060</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Playwright_Actions">
+      <created>1701525855110</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701525855110</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Playwright_Actions">
+      <created>1701526002667</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701526002667</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

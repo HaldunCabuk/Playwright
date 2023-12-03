@@ -22,10 +22,10 @@ public class ProductPage{
 
     public void assertZtoA(){
         prodNames = page.locator(".inventory_item_name").allTextContents();
-        boolean sirali = true;
+        boolean sirali = false;
 
         for (int i = 0; i < prodNames.size()-1 ; i++) {
-            if (prodNames.get(i).compareTo(prodNames.get(i+1))>0){
+            if (prodNames.get(i).compareTo(prodNames.get(i+1))>=0){
                 sirali = true;
                 break;
             }
