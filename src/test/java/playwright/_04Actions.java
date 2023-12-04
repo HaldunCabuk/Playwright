@@ -7,6 +7,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 import static utils.Utils.sleep;
 
 public class _04Actions {
@@ -17,7 +18,7 @@ public class _04Actions {
     Page page;
 
     @BeforeTest
-    public void beforeTest(){
+    public void beforeTest() {
         playwright = Playwright.create();
         browser = playwright.chromium().launch(
                 new BrowserType.LaunchOptions()
@@ -32,7 +33,7 @@ public class _04Actions {
 
 
     @AfterTest
-    public void afterTest(){
+    public void afterTest() {
         sleep(3);
         page.close();
         browser.close();
@@ -41,7 +42,7 @@ public class _04Actions {
 
 
     @Test
-    public void dragDrop(){
+    public void dragDrop() {
 
         page.navigate("https://demoqa.com/droppable");
         sleep(2);
@@ -67,29 +68,30 @@ public class _04Actions {
 
 
     }
+
     @Test
-    public void mouseAction(){
+    public void mouseAction() {
 
         page.navigate("https://demoqa.com/buttons");
         sleep(2);
-        Locator doubleClick = page.getByRole(AriaRole.BUTTON,new Page.GetByRoleOptions().setName("Double Click Me"));
+        Locator doubleClick = page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Double Click Me"));
 
         doubleClick.dblclick();
         sleep(3);
 
-        Locator rightClick = page.getByRole(AriaRole.BUTTON,new Page.GetByRoleOptions().setName("Right Click Me"));
+        Locator rightClick = page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Right Click Me"));
         rightClick.click(new Locator.ClickOptions().setButton(MouseButton.RIGHT));
         sleep(3);
 
-        Locator clickMe = page.getByRole(AriaRole.BUTTON,new Page.GetByRoleOptions().setName("Click Me").setExact(true));
+        Locator clickMe = page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Click Me").setExact(true));
         sleep(3);
     }
 
     @Test
-    public void iframe(){
+    public void iframe() {
         page.navigate("https://the-internet.herokuapp.com/iframe");
-        Locator editor = page.frameLocator("iframe").locator("tinymce");
-        //editor.fill("Java");
+        Locator editor = page.frameLocator("iframe").locator("#tinymce");
+       // editor.fill("Java");
 
         editor.focus();
 
@@ -97,24 +99,30 @@ public class _04Actions {
     }
 
     @Test
-    public void windows(){
+    public void windows() {
 
         BrowserContext context = browser.newContext();
         Page page1 = context.newPage();
         page1.navigate("https://the-internet.herokuapp.com/windows");
 
-        Locator locator = page.locator(".example > a");
+        Locator locator = page1.locator(".example > a");
 
         Page page2 = context.waitForPage(() -> {
 
-            locator.click();
+                    locator.click(); // acilan sayfayi page2 ye atadik
 
-                });
+                }
+        );
 
-        page2.waitForLoadState();
+        page2.waitForLoadState(); // Sayfanin yuklenmesini bekliyoruz
 
+        assertThat(page2.locator("//h3[text()='New Window']")).isVisible();
 
-        page.bringToFront();
+        sleep(2);
+        page2.close();
+        sleep(2);
+        page1.close();
+        //page.bringToFront();
 
     }
 }
