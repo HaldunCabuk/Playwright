@@ -48,7 +48,7 @@
       <recent name="C:\Users\Haldun35\IdeaProjects\Playwright\src\test\java\example\stepdefs" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG._04Actions.windows">
+  <component name="RunManager" selected="Cucumber Java.Scenario: login">
     <configuration name="Scenario: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/example/feautures/login.feature" />
@@ -142,9 +142,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: login" />
         <item itemvalue="TestNG._04Actions.windows" />
         <item itemvalue="TestNG._04Actions.iframe" />
-        <item itemvalue="Cucumber Java.Scenario: login" />
         <item itemvalue="TestNG._04Actions.mouseAction" />
         <item itemvalue="TestNG.Runner" />
       </list>
